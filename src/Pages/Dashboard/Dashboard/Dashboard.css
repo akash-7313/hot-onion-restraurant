@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.sidebar{
+    box-shadow: 0 4px 8px 0 #00000033;
+}
+.sidebar ul li:hover{
+    background: #892be21f;
+}
+.sidebar ul li:first-child{
+    background: none;
+}
+.main{
+    box-shadow: 0 4px 8px 0 #00000033;
+}
+.search{
+    position: relative;
+}
+.search input{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.search i{
+    position: absolute;
+    right: 15px;
+    top: 7px;
+}
+.search label{
+    cursor: pointer;
+}
+.search-btn{
+    position: absolute;
+    right: 450px;
+    top: 7px;
+}
+.dashboard-call{
+    box-shadow: 0 4px 8px 0 #00000033;
+}
